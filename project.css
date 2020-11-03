@@ -1,0 +1,117 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(images.jpg);
+    height: 100vh;
+    text-align: center;
+    flex-direction: row-reverse;
+}
+
+.header{
+    background: rgba(255, 255, 255, 0.247);
+    font-size: 30px;
+    color: red;
+  text-shadow:   0 0 10px black, 0 0 20px white, 0 0 30px black, 0 0 40px white, 
+    0 0 50px black, 0 0 60px white, 0 0 70px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: white;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red, 
+    0 0 50px red, 0 0 60px red, 0 0 70px red;;
+}
+
+section{
+  
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+a:link{
+    font: white;
+}
+
+a:hover{
+    background-color: gold;
+    text-shadow:text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red ;
+}
+
+
+
+
+li{
+   
+    display: inline;
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-shadow: 0 0 10px goldenrod, 0 0 20px goldenrod, 0 0 30px goldenrod, 0 0 40px goldenrod;
+    
+}
+
+.box{
+    
+    position: relative;
+    top: 0;
+    left: 350px;
+    max-width: 900px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.247);
+    box-shadow: 0 5px 15px rgb(0, 0, 0 .25);
+}
+.box h3{
+    
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red, 
+    0 0 50px red, 0 0 60px red, 0 0 70px red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box h4{
+    
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red, 
+                   0 0 50px red, 0 0 60px red, 0 0 70px red;
+}
+.box p{
+    
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0 0 10px gold, 0 0 20px red, 0 0 30px black, 0 0 50px black, 0 0 60px black, 0 0 100px black;
+}
+
+.box2{
+    position: relative;
+    top: 0;
+    left: 350px;
+    max-width: 900px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.247);
+    box-shadow: 0 5px 15px rgb(0, 0, 0 .25);
+}
+
+.box2 p{
+
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 10px gold, 0 0 20px red, 0 0 30px black, 0 0 50px black, 0 0 60px black, 0 0 100px black;
+
+}
